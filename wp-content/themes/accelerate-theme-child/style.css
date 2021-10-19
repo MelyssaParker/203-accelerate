@@ -52,8 +52,10 @@ Text Domain:  accelerate-theme-child
 }
 
 .case-study-images {
-    float: right;
+    float: left;
     width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .individual-featured-work {
@@ -77,4 +79,8 @@ Text Domain:  accelerate-theme-child
 div.case-study-images img {
 	width: 100%;
 	height: auto;
+}
+
+.case-study {
+    overflow: auto;
 }
